@@ -1,4 +1,11 @@
-source 'https://rubygems.org'
+source "http://rubygems.org"
 
 gem 'sinatra'
-gem "omniauth-google-oauth2"
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'pry'
+gem 'erubis'
+
+group :development do
+  gem 'sinatra-contrib'
+end
